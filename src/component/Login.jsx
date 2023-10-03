@@ -24,7 +24,7 @@ function Login() {
                 <a href="#" class="text-blue-500 hover:underline">Forgot Password?</a>
             </div>
             <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Login</button>
-           <Link to='/table'> <p className='text-center'>back</p></Link>
+           <Link to='/'> <p className='text-center'>back</p></Link>
         </form>
     </div>
     </div>

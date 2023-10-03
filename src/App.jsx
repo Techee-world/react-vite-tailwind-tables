@@ -2,6 +2,7 @@ import React  from 'react'
 import Table from './component/Table'
 import Login from './component/Login'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Nav from './component/nav';
 
 function App() {
 
@@ -10,10 +11,10 @@ function App() {
     <>
    
    <BrowserRouter>
-   
+   <Nav />
     <Routes>
+    <Route  exact path="/" element={<Table />} />
     <Route  path="/login" element={<Login />} />
-    <Route  path="/table" element={<Table />} />
     </Routes >
     </BrowserRouter>
     </>
